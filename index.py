@@ -15,7 +15,7 @@ print(array_of_zeros)
 array_of_ones = np.ones((3,4),dtype=np.int16)
 print(array_of_ones)
 
-array_eye = np.eye(4,dtype=np.int16)
+array_eye = np.eye(4,dtype=np.int16)   # idenity matrix
 print(array_eye)
 
 array_of_evens = np.arange(2,20,2)
@@ -27,7 +27,7 @@ print(array_2d)
 array_nd = np.arange(6).reshape(3,2)
 print(array_nd)
 
-array_ones = np.ones_like(array_nd)
+array_ones = np.ones_like(array_nd)   # make an array of one's, the same size as this array
 print(array_ones)
 
 # Printing Arrays
